@@ -1,0 +1,93 @@
+.why-me{background:#445b0b; padding:12px; border-radius:8px; text-shadow: 1px 1px 2px #000000;   min-height:200px; }
+.why-me h4, p{ color:#fff;letter-spacing:1px; font-weight:bold}
+
+.why-now{background:#2e2f5b; padding:12px; border-radius:8px; text-shadow: 1px 1px 2px #000000;  min-height:200px}
+.why-now h4, li{ color:#fff;letter-spacing:1px; font-weight:bold}
+h2 span{color:#ddfc8d;}
+
+.solution {background:#445b0b; padding:12px; border-radius:8px; text-shadow: 1px 1px 2px #000000;   min-height:150px; }
+.solution  h3, p{ color:#fff;letter-spacing:1px; font-weight:bold}
+
+.offer {background:#2e2f5b; padding:12px; border-radius:8px; text-shadow: 1px 1px 2px #000000;  min-height:150px}
+.offer  h3, li{ color:#fff;letter-spacing:1px; font-weight:bold}
+.answer p{color:#333 !important}
+.answer span{color:#090}
+form, input, select, textarea {background:#fff !important; color:#999 !important}
+
+.btn {
+  border: 2px solid black;
+  background-color:transparent;
+  color: black;
+  padding: 14px 28px;
+  font-size: 28px;
+  cursor: pointer;
+
+}
+
+/* Green */
+.success {
+  border-color: #FFF;
+  color: WHITE;
+  text-align: left;
+}
+
+.success:hover {
+  background-color:#fb8c00;
+  color: white;
+}
+
+/* Blue */
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Orange */
+.warning {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: red
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* Gray */
+.default {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+
+@media only screen and (max-width: 767px) {
+	.btn {
+  border: 2px solid white;
+  background-color:transparent;
+  color: black;
+  padding: 8px 18px;
+  font-size:14px;
+  cursor: pointer;
+  color:#FFF;
+
+}
+}
